@@ -18,7 +18,7 @@ deploy:
   bucket_path: "docker-react-bucket-path" # path of your S3 bucket
   on:    #"success" # deploy only on successful tests
     branch: main # deploy only on master branch
-  access_key_id: "access key"   ## ($AWS_ACCESS_kEY) aws access key id
+  access_key_id: "access key"   ## ($AWS_ACCESS_KEY) aws access key id
   secret_access_key: "secret"   ## ("$AWS_SECRET_KEY")  aws secret access key
 
   ## $AWS_ACCESS_key , $AWS_SECRET_KEY are environment variables in travis
